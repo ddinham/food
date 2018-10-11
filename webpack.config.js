@@ -5,6 +5,7 @@ const HtmlWebpackPluginConfig = new HtmlWebpackPlugin({
   inject: 'body'
 })
 module.exports = {
+  mode:'none',
   entry: './index.js',
   output: {
     filename: 'bundle.js'
